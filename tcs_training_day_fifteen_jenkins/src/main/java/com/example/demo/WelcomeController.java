@@ -13,7 +13,7 @@ public class WelcomeController {
 		return "Hello world";
 	}
 	
-	@GetMapping(params = "/hello")
+	@GetMapping(path = "/hello")
 public String getThanksMessage() {
 		
 		return "Thank you";
