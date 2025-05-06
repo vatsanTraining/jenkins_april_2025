@@ -12,4 +12,11 @@ public class WelcomeController {
 		
 		return "Hello world";
 	}
+	
+	@GetMapping(params = "/hello")
+public String getThanksMessage() {
+		
+		return "Thank you";
+	}
+	
 }
